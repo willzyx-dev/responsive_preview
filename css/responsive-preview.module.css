@@ -31,13 +31,13 @@
   display: block;
 }
 /* Device preview options. */
-.toolbar-tab-responsive-preview .item-list {
+.toolbar-tab-responsive-preview .responsive-preview-item-list {
   display: none;
   position: absolute;
   white-space: nowrap;
   z-index: 512;
 }
-.toolbar-tab-responsive-preview.open .item-list {
+.toolbar-tab-responsive-preview.open .responsive-preview-item-list {
   display: block;
 }
 .toolbar-tab-responsive-preview.toolbar-tab .responsive-preview-options li {

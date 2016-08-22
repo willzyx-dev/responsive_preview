@@ -440,7 +440,7 @@
           var dir = this.envModel.get('dir');
           var edge = (dir === 'rtl') ? 'left' : 'right';
           this.$el
-            .find('.item-list')
+            .find('.responsive-preview-item-list')
             .position({
               'my': edge +' top',
               'at': edge + ' bottom',

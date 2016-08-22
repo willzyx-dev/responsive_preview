@@ -120,10 +120,17 @@ function responsive_preview_renderable_devices_list() {
   ];
 
   return [
-    '#theme' => 'item_list',
+    '#theme' => 'item_list__responsive_preview',
     '#items' => $links,
     '#attributes' => [
       'class' => ['responsive-preview-options'],
+    ],
+    '#theme_wrappers' => [
+      'container' => [
+        '#attributes' => [
+          'class' => ['responsive-preview-item-list']
+        ],
+      ],
     ],
   ];
 }
