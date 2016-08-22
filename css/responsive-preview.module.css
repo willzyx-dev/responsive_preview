@@ -129,3 +129,10 @@ body.toolbar-tray-open.responsive-preview-frame {
 .responsive-preview-frame .contextual {
   display: none !important;
 }
+
+/**
+ * Hide contextual toolbar tab when preview is active.
+ */
+.responsive-preview-active .contextual-toolbar-tab {
+    display: none !important;
+}
