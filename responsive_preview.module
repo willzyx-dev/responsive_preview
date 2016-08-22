@@ -43,7 +43,7 @@ function responsive_preview_toolbar() {
   if ($preview_access && !$admin_route) {
     $items['responsive_preview'] += [
       '#type' => 'toolbar_item',
-      '#weight' => 999,
+      '#weight' => 50,
       'tab' => [
         'trigger' => [
           '#type' => 'html_tag',
